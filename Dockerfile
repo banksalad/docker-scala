@@ -15,5 +15,6 @@ RUN apk add --no-cache --virtual=.build-dependencies wget ca-certificates && \
     mv "scala-${SCALA_VERSION}/bin" "scala-${SCALA_VERSION}/lib" "${SCALA_HOME}" && \
     ln -s "${SCALA_HOME}/bin/"* "/usr/bin/" && \
     apk del .build-dependencies && \
-    rm -rf "scala-${SCALA_VERSION}/"* && \
+    rm -rf "scala-${SCALA_VERSION}" && \
+    rm "scala-${SCALA_VERSION}.tgz" && \
     scala -version
