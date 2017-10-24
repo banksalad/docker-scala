@@ -2,7 +2,7 @@ FROM openjdk:8-jre-alpine
 
 MAINTAINER Rainist Engineering <engineering@rainist.com>
 
-ENV SCALA_VERSION 2.12.3
+ENV SCALA_VERSION 2.12.4
 ENV SCALA_HOME /usr/local/scala
 
 RUN apk add --no-cache --virtual=.build-dependencies wget ca-certificates && \
