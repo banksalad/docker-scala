@@ -9,3 +9,9 @@ Minimal Docker image for Scala(without SBT) built on Alpine Linux.
 ```bash
 docker pull rainist/scala:latest
 ```
+
+## Supported Scala Versions
+
+- 2.12.5
+- 2.12.4
+- 2.12.3
