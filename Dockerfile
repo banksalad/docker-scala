@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-MAINTAINER Rainist Engineering <engineering@rainist.com>
+LABEL maintainer="engineering@rainist.com"
 
 ENV SCALA_VERSION 2.12.4
 ENV SCALA_HOME /usr/local/scala
