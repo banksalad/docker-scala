@@ -2,7 +2,7 @@ FROM openjdk:8-jre-slim-stretch
 
 LABEL maintainer="engineering@rainist.com"
 
-ENV SCALA_VERSION 2.13.0
+ENV SCALA_VERSION 2.13.1
 ENV SCALA_HOME /usr/local/scala
 
 RUN apt-get update && apt-get install --assume-yes wget
